@@ -1,0 +1,34 @@
+<html>
+<head>
+<script type="text/javascript" src="http://latex.codecogs.com/latexit.js"></script>
+<script type="text/javascript">LatexIT.add('p', true);</script>
+</head>
+<body>
+<div style="width:600px">
+<h2> Topic </h2> TalkeronUsage 
+<hr>
+<h2> Comment </h2> Introduce the commands acceptable by Talkeron console.
+<hr>
+<h2> Content </h2>
+<p>
+A command acceptable by Talkeron console has two parts:
+<ol>
+<li> <b>Assist indicator</b>. A dot separated string which indicates an assist. </li>
+<li> <b>Running configured values of parameters</b>. A list of terms of format "[parameter name]=[running configured value]". This part is optional. </li>
+</ol>
+</p>
+<p>
+<b>Assist indicator</b>. An assist indicator is actually the path of the assist description relative to 
+the "Assist" directory under TalkeronHome. 
+</p>
+<p>
+For example, there is a built-in auxiliary assist
+"Talk" which is described in file "TalkeronHome/Assist/Talk/Talk.talk". To refer to assist "Talk", 
+user can type "Talk" directly in the console. Furthermore, there is a child assist "Alist" in "Talk".
+Assist "Alist" is described in file "TalkeronHome/Assist/Talk/Alist/Alist.talk", 
+and is referred by indicator "Talk.Alist".
+</p>
+<p>
+<b>Running configured value of parameters</b>. 
+</p>
+</div>

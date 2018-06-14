@@ -1,0 +1,99 @@
+<html>
+<head>
+<script type="text/javascript" src="http://latex.codecogs.com/latexit.js"></script>
+<script type="text/javascript">LatexIT.add('p', true);</script>
+</head>
+<body>
+<h1> Talkeron </h1>
+<hr>
+<br>
+|---------- <a href="#Introduction">Introduction</a> : Introduce the keys of developing and using of Talkeron.
+ <br>
+|---------- <a href="#TalkeronUsage">TalkeronUsage</a> : Introduce the usage of Talkeron.
+ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---------- <a href="#TalkeronUsage | ConsoleUsage">ConsoleUsage</a> : Introduce the commands acceptable by Talkeron console.
+ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---------- <a href="#TalkeronUsage | TaskBlockUsage">TaskBlockUsage</a> : Introduce the allowed operations of task blocks.
+ <br>
+|---------- <a href="#TalkeronDevelopment">TalkeronDevelopment</a> : Introduce the important ideas in Talkeron applications.
+ <br>
+<br>
+<hr>
+<div id="Introduction" style="width:600px">
+<h2>Introduction</h2>
+<b>Comment</b>: Introduce the keys of developing and using of Talkeron.
+<p>
+Talkeron is a <b>console-gui-mixed</b> application for task management. In console,
+user can type in the name of talkeron assists and running configured value of the parameters.
+By clicking "Enter" key, the typed command will be compiled and start the task block of
+the corresponding assist. In the task block, the default value of parameters are extracted from
+the file which has the assist description, and it is replaced by the running configured value.
+</p>
+<p>
+When an assist has been compiled correctly, a corresponding task block is created in the task area.
+By clicking the buttons in the task blocks, user can start the corresponding action. There are
+two kinds of actions: the binded actions "run", "redo" and "undo" of the assist; the hand actions which
+link to other assists.
+</p>
+</div>
+<hr>
+<div id="TalkeronUsage" style="width:600px">
+<h2>TalkeronUsage</h2>
+<b>Comment</b>: Introduce the usage of Talkeron.
+<p>
+A typical use of Talkeron contains the following steps:
+<ol>
+<li> start Talkeron, if it is not running yet; </li>
+<li> type in the command and press "Enter"; </li>
+<li> fill in or change the values of the parameters; </li>
+<li> click an action button. </li>
+</ol>
+</p>
+</div>
+<hr>
+<div id="TalkeronUsage | ConsoleUsage" style="width:600px">
+<h2>TalkeronUsage | ConsoleUsage</h2>
+<b>Comment</b>: Introduce the commands acceptable by Talkeron console.
+<p>
+A command acceptable by Talkeron console has two parts:
+<ol>
+<li> <b>Assist indicator</b>. A dot separated string which indicates an assist. </li>
+<li> <b>Running configured values of parameters</b>. A list of terms of format "[parameter name]=[running configured value]". This part is optional. </li>
+</ol>
+</p>
+<p>
+the "Assist" directory under TalkeronHome.
+</p>
+<p>
+For example, there is a built-in auxiliary assist
+"Talk" which is described in file "TalkeronHome/Assist/Talk/Talk.talk". To refer to assist "Talk",
+user can type "Talk" directly in the console. Furthermore, there is a child assist "Alist" in "Talk".
+Assist "Alist" is described in file "TalkeronHome/Assist/Talk/Alist/Alist.talk",
+and is referred by indicator "Talk.Alist".
+</p>
+<p>
+</p>
+</div>
+<hr>
+<div id="TalkeronUsage | TaskBlockUsage" style="width:600px">
+<h2>TalkeronUsage | TaskBlockUsage</h2>
+<b>Comment</b>: Introduce the allowed operations of task blocks.
+<p>
+In a created task block, there are two things a user can do:
+<ol>
+<li> change the parameter values; </li>
+<li> and click the action buttons. </li>
+</ol>
+</p>
+</div>
+<hr>
+<div id="TalkeronDevelopment" style="width:600px">
+<h2>TalkeronDevelopment</h2>
+<b>Comment</b>: Introduce the important ideas in Talkeron applications.
+<p>
+About the development of Talkeron, the two most important things are "compiling of the typed command"
+and "generating of the task block".
+</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<?xml version = "1.0"?>
+<doc>
+	<main>Talkeron</main>
+	<source>doc</source>
+	<topic>
+		<name>Introduction</name>
+	</topic>
+	<topic>
+		<name>TalkeronUsage</name>
+		<topic>
+			<name>ConsoleUsage</name>
+		</topic>
+		<topic>
+			<name>TaskBlockUsage</name>
+		</topic>
+	</topic>
+	<topic>
+		<name>TalkeronDevelopment</name>
+	</topic>
+</doc>
