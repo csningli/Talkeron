@@ -1,0 +1,16 @@
+<?xml version = "1.0" ?>
+<assist>
+	<desc>Picture.Base64</desc>
+	<comment></comment>
+	<para>
+		<name>talkeronhome</name>
+		<value>$TALKERONHOME$</value>
+	</para>
+	<para>
+		<name>imgpath</name>
+	</para>
+	<action>
+	<run>python $TALKERONHOME$/Actions/Picture/base64encode.py</run>	
+	<redo>python $TALKERONHOME$/Actions/Picture/base64encode.py</redo>	
+	</action>
+</assist>

@@ -1,0 +1,11 @@
+<?xml version = "1.0"?>
+
+<assist>
+	<desc>Project.Doc</desc>
+	<comment>Manage documents of a project.</comment>
+	<hand>Project.Doc.Update</hand>
+	<hand>Project.Doc.New</hand>
+</assist>
+
+
+

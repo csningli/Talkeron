@@ -1,0 +1,24 @@
+<?xml version = "1.0"?>
+
+<assist>
+	<desc>Project.Snapshot</desc>
+	<comment>Take a snapshot of the project.</comment>
+	<para>
+	<name>talkeron</name>
+	<value>$TALKERONHOME$</value>
+	</para>
+	<para>
+	<name>shotpos</name>
+	<value>/Users/nil/Share</value>
+	</para>
+	<para>
+	<name>projpath</name>
+	</para>
+	<action>
+	<run>python $TALKERONHOME$/Actions/Project/snapshot.py</run>
+	<redo>python $TALKERONHOME$/Actions/Project/snapshot.py</redo>
+	</action>
+</assist>
+
+
+

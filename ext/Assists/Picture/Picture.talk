@@ -1,0 +1,6 @@
+<?xml version = "1.0" ?>
+<assist>
+	<desc>Picture</desc>
+	<comment></comment>
+	<hand>Picture.Base64</hand>
+</assist>

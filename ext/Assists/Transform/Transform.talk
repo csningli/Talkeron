@@ -1,0 +1,6 @@
+<?xml version = "1.0" ?>
+<assist>
+	<desc>Transform</desc>
+	<comment></comment>
+	<hand>Transform.Quaternion</hand>
+</assist>

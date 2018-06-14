@@ -1,0 +1,11 @@
+<?xml version = "1.0" ?>
+<assist>
+	<desc>Transform.Quaternion</desc>
+	<comment></comment>
+	<hand>Transform.Quaternion.E2Q</hand>
+	<hand>Transform.Quaternion.Q2E</hand>
+	<hand>Transform.Quaternion.Q2A</hand>
+	<hand>Transform.Quaternion.A2Q</hand>
+	<hand>Transform.Quaternion.QMul</hand>
+	<hand>Transform.Quaternion.AMul</hand>
+</assist>

@@ -1,0 +1,14 @@
+<?xml version = "1.0" ?>
+<assist>
+	<desc>Note</desc>
+	<comment></comment>
+	<para>
+		<name></name>
+		<type></type>
+		<range></range>
+		<value></value>
+	</para>
+	<hand alias="Notes">Project.Open projpath=$HOME$/Notes</hand>
+	<hand>Note.LatexNote</hand>
+	<hand>Note.LatexCard</hand>
+</assist>

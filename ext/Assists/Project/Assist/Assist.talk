@@ -1,0 +1,21 @@
+<?xml version = "1.0"?>
+
+<assist>
+	<desc>Project.Assist</desc>
+	<comment>Create an assist under TalkeronHome/Assist.</comment>
+	<para>
+	<name>talkeron</name>
+	<value>$TALKERONHOME$</value>
+	</para>
+	<para>
+	<name>projname</name>
+	<value></value>
+	</para>
+	<action>
+	<run>python $TALKERONHOME$/Actions/Project/assist.py</run>
+	<redo>python $TALKERONHOME$/Actions/Project/assist.py</redo>
+	</action>
+</assist>
+
+
+

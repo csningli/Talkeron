@@ -1,0 +1,24 @@
+<?xml version = "1.0"?>
+
+<assist>
+	<desc>Note.LatexCard</desc>
+	<comment>Create a latex card.</comment>
+	<para>
+	<name>talkeron</name>
+	<value>$TALKERONHOME$</value>
+	</para>
+	<para>
+	<name>directory</name>
+	<value>$HOME$/Notes</value>
+	</para>
+	<para>
+	<name>cardname</name>
+	</para>
+	<action>
+	<run>python $TALKERONHOME$/Actions/Note/latexcard.py</run>
+	<redo>python $TALKERONHOME$/Actions/Note/latexcard.py</redo>
+	</action>
+</assist>
+
+
+

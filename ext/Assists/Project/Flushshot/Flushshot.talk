@@ -1,0 +1,27 @@
+<?xml version = "1.0"?>
+
+<assist>
+	<desc>Project.Flushshot</desc>
+	<comment>Flush a snapshot to cover the current project.</comment>
+	<para>
+	<name>talkeron</name>
+	<value>$TALKERONHOME$</value>
+	</para>
+	<para>
+	<name>shotpos</name>
+	<value>$HOME$/Share</value>
+	</para>
+	<para>
+	<name>shotname</name>
+	</para>
+	<para>
+	<name>projpath</name>
+	</para>
+	<action>
+	<run>python $TALKERONHOME$/Actions/Project/flushshot.py</run>
+	<redo>python $TALKERONHOME$/Actions/Project/flushshot.py</redo>
+	</action>
+</assist>
+
+
+

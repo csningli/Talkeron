@@ -1,0 +1,21 @@
+<?xml version = "1.0" ?>
+<assist>
+	<desc>Transform.Quaternion.E2Q</desc>
+	<comment></comment>
+	<para>
+		<name>roll</name>
+		<value></value>
+	</para>
+	<para>
+		<name>pitch</name>
+		<value></value>
+	</para>
+	<para>
+		<name>yaw</name>
+		<value></value>
+	</para>
+	<action>
+		<run>python $TALKERONHOME$/Actions/Transform/euler2quaternion.py</run>
+		<redo>python $TALKERONHOME$/Actions/Transform/euler2quaternion.py</redo>
+	</action>
+</assist>

@@ -1,0 +1,20 @@
+<?xml version = "1.0"?>
+
+<assist>
+	<desc>Project.Doc.New</desc>
+	<comment>Generate documents according to doc.xml.</comment>
+	<para>
+	<name>talkeron</name>
+	<value>$TALKERONHOME$</value>
+	</para>
+	<para>
+	<name>projpath</name>
+	</para>
+	<action>
+	<run>python $TALKERONHOME$/Actions/Project/docnew.py</run>
+	<redo>python $TALKERONHOME$/Actions/Project/docnew.py</redo>
+	</action>
+</assist>
+
+
+

@@ -1,0 +1,17 @@
+<?xml version = "1.0" ?>
+<assist>
+	<desc>Transform.Quaternion.QMul</desc>
+	<comment></comment>
+	<para>
+		<name>p</name>
+		<value></value>
+	</para>
+	<para>
+		<name>q</name>
+		<value></value>
+	</para>
+	<action>
+	<run>/Users/nil/anaconda3/bin/python $TALKERONHOME$/Actions/Transform/quaternionmul.py</run>
+	<redo>/Users/nil/anaconda3/bin/python $TALKERONHOME$/Actions/Transform/quaternionmul.py</redo>
+	</action>
+</assist>

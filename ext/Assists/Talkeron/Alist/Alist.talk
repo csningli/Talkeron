@@ -1,0 +1,15 @@
+<?xml version = "1.0" ?>
+<assist>
+	<desc>Talkeron.Alist</desc>
+	<comment>Assist for the development Talkeron.</comment>
+	<para>
+		<name>talkeron</name>
+		<type></type>
+		<range></range>
+		<value>$TALKERONHOME$</value>
+	</para>
+	<action>
+		<run>python $TALKERONHOME$/Actions/Talkeron/checkassists.py</run>
+		<redo>python $TALKERONHOME$/Actions/Talkeron/checkassists.py</redo>
+	</action>
+</assist>

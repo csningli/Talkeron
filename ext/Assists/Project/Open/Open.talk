@@ -1,0 +1,20 @@
+<?xml version = "1.0"?>
+
+<assist>
+	<desc>Project.Open</desc>
+	<comment>Open the directory containing the project.</comment>
+	<para>
+	<name>talkeron</name>
+	<value>$TALKERONHOME$</value>
+	</para>
+	<para>
+	<name>projpath</name>
+	</para>
+	<action>
+	<run>python $TALKERONHOME$/Actions/Project/open.py</run>
+	<redo>python $TALKERONHOME$/Actions/Project/open.py</redo>
+	</action>
+</assist>
+
+
+

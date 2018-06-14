@@ -1,0 +1,6 @@
+<?xml version = "1.0" ?>
+<assist>
+	<desc>Talkeron</desc>
+	<comment>Assist for convinently using Talkeron.</comment>
+	<hand>Talkeron.Alist</hand>
+</assist>

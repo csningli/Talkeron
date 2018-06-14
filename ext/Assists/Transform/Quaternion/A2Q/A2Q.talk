@@ -1,0 +1,25 @@
+<?xml version = "1.0" ?>
+<assist>
+	<desc>Transform.Quaternion.A2Q</desc>
+	<comment></comment>
+	<para>
+		<name>angle</name>
+		<value></value>
+	</para>
+	<para>
+		<name>x</name>
+		<value></value>
+	</para>
+	<para>
+		<name>y</name>
+		<value></value>
+	</para>
+	<para>
+		<name>z</name>
+		<value></value>
+	</para>
+	<action>
+	<run>/Users/nil/anaconda3/bin/python $TALKERONHOME$/Actions/Transform/angleaxis2quaternion.py</run>
+	<redo>/Users/nil/anaconda3/bin/python $TALKERONHOME$/Actions/Transform/angleaxis2quaternion.py</redo>
+	</action>
+</assist>

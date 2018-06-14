@@ -1,0 +1,17 @@
+<?xml version = "1.0" ?>
+<assist>
+	<desc>Transform.Quaternion.AMul</desc>
+	<comment></comment>
+	<para>
+		<name>a</name>
+		<value></value>
+	</para>
+	<para>
+		<name>b</name>
+		<value></value>
+	</para>
+	<action>
+	<run>/Users/nil/anaconda3/bin/python $TALKERONHOME$/Actions/Transform/angleaxismul.py</run>
+	<redo>/Users/nil/anaconda3/bin/python $TALKERONHOME$/Actions/Transform/angleaxismul.py</redo>
+	</action>
+</assist>

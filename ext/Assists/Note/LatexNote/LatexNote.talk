@@ -1,0 +1,24 @@
+<?xml version = "1.0"?>
+
+<assist>
+	<desc>Note.LatexNote</desc>
+	<comment>Create a latex note.</comment>
+	<para>
+	<name>talkeron</name>
+	<value>$TALKERONHOME$</value>
+	</para>
+	<para>
+	<name>directory</name>
+	<value>$HOME$/Notes</value>
+	</para>
+	<para>
+	<name>notename</name>
+	</para>
+	<action>
+	<run>python $TALKERONHOME$/Actions/Note/latexnote.py</run>
+	<redo>python $TALKERONHOME$/Actions/Note/latexnote.py</redo>
+	</action>
+</assist>
+
+
+

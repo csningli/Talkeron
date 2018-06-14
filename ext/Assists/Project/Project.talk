@@ -1,0 +1,13 @@
+<?xml version = "1.0"?>
+
+<assist>
+	<desc>Project</desc>
+	<comment>Create, manage and backup project files.</comment>
+	<hand>Project.Assist</hand>
+	<hand>Project.Backup</hand>
+	<hand>Project.Snapshot</hand>
+	<hand>Project.Flushshot</hand>
+	<hand>Project.Doc</hand>
+	<hand>Project.Open</hand>
+</assist>
+

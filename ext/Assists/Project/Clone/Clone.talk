@@ -1,0 +1,23 @@
+<?xml version = "1.0"?>
+
+<assist>
+	<desc>Project.Clone</desc>
+	<comment>Make a clone of the content in a fossil repository.</comment>
+	<para>
+	<name>talkeron</name>
+	<value>$TALKERONHOME$</value>
+	</para>
+	<para>
+	<name>repository</name>
+	</para>
+	<para>
+	<name>project</name>
+	</para>
+	<action>
+	<run>python $TALKERONHOME$/Actions/Project/fossilclone.py</run>
+	<redo>python $TALKERONHOME$/Actions/Project/fossilclone.py</redo>
+	</action>
+</assist>
+
+
+

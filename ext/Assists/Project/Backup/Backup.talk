@@ -1,0 +1,31 @@
+<?xml version = "1.0"?>
+
+<assist>
+	<desc>Project.Backup</desc>
+	<comment>Backup a directory with fossil.</comment>
+	<para>
+	<name>talkeron</name>
+	<value>$TALKERONHOME$</value>
+	</para>
+	<para>
+	<name>fossil</name>
+	<value>/usr/local/bin/fossil</value>
+	</para>
+	<para>
+	<name>backup</name>
+	<value>$HOME$/Backups</value>
+	</para>
+	<para>
+	<name>projpath</name>
+	</para>
+	<para>
+	<name>message</name>
+	</para>
+	<action>
+	<run>python $TALKERONHOME$/Actions/Project/fossilbk.py</run>
+	<redo>python $TALKERONHOME$/Actions/Project/fossilbk.py</redo>
+	</action>
+</assist>
+
+
+
