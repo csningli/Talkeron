@@ -1,0 +1,19 @@
+<?xml version = "1.0"?>
+
+<assist>
+	<desc>Odds.EuroFootball</desc>
+	<comment>Calculate winning probabilities from the odds.</comment>
+	<para>
+	<name>win</name>
+	</para>
+	<para>
+	<name>draw</name>
+	</para>
+	<para>
+	<name>lose</name>
+	</para>
+	<action>
+	<run>python $TALKERONHOME$/Actions/Odds/eurofootball.py</run>
+	<redo>python $TALKERONHOME$/Actions/Odds/eurofootball.py</redo>
+	</action>
+</assist>

@@ -1,0 +1,13 @@
+<?xml version = "1.0" ?>
+<assist>
+	<desc>Odds</desc>
+	<comment></comment>
+	<para>
+		<name></name>
+		<type></type>
+		<range></range>
+		<value></value>
+	</para>
+	<hand>Odds.AsiaFootball</hand>
+	<hand>Odds.EuroFootball</hand>
+</assist>

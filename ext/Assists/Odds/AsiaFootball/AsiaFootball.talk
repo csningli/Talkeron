@@ -1,0 +1,16 @@
+<?xml version = "1.0"?>
+
+<assist>
+	<desc>Odds.AsiaFootball</desc>
+	<comment>Calculate winning probabilities from the odds.</comment>
+	<para>
+	<name>up</name>
+	</para>
+	<para>
+	<name>down</name>
+	</para>
+	<action>
+	<run>python $TALKERONHOME$/Actions/Odds/asiafootball.py</run>
+	<redo>python $TALKERONHOME$/Actions/Odds/asiafootball.py</redo>
+	</action>
+</assist>
