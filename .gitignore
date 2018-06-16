@@ -10,6 +10,9 @@
 *.tex
 *.bib
 
+# Qt
+.user
+
 # fossil accessories
 .fslckout
 
